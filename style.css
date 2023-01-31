@@ -1,16 +1,41 @@
+:root{
+    --primary:#F2C94C;
+}
+body{
+margin: 0px;
+}
 textarea{
     width: 80%;
     display: block;
-    margin: 1rem;
     padding: 1rem;
-    height: 10vh;
+    height: 20vh;
 }
 
 .output-container{
     width: 80%;
-    height: 10vh;
+    height: 20vh;
     display: block;
-    margin: 1rem;
+
     padding: 1rem;
     border: 1px solid black;
+}
+button{
+   background-color: var(--primary);
+   border: none;
+   padding: 10px;
+    font-size: large;
+
+}
+.heading{
+margin: 0px;
+padding: 20px;
+margin-bottom: 30px;
+    background-color: var(--primary);
+    text-align: center;
+    color: white;
+}
+
+.cont{
+    margin: auto;
+    max-width: 600px;
 }
