@@ -2,7 +2,9 @@ var btnTranslate = document.querySelector("#btn");
 var textArea = document.querySelector("#text-area")
 var output = document.querySelector(".output-container");
 
-var serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json?text=";
+var serverUrl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+var serverUrl2 = "https://api.funtranslations.com/translate/minion.json";
+
 
 function getTranslatedUrl(text){
     return serverUrl+"?"+"text="+text;
